@@ -63,17 +63,12 @@ body {
 
   .labs-series__description {
     position: absolute;
-    top: 0;
     right: 0;
-    height: 100%;
-    width: 50%; }
-
-    .labs-series__description__title {
-      font-size: 20px;
-      }
-
-    .labs-series__description__title {
-      }
+    bottom: 0;
+    width: 50%;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1A547E; }
 
   .labs-series__list {
     list-style: none;
@@ -96,3 +91,6 @@ body {
 
   .labs-series--odd {
     background: #353535; }
+
+    .labs-series--odd .labs-series__description {
+      color: #868686; }
